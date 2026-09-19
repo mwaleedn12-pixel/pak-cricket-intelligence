@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Data files (raw/large data shouldn't go to GitHub)
+*.csv
+*.xlsx
+data/raw/
+data/staging/
+
+# Power BI
+*.pbix.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
